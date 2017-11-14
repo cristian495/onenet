@@ -1,0 +1,18 @@
+.obligatorio{
+    color: #D75D5E;
+    font-size: 1.3em;
+}
+.cont_fecha_desc{
+    position: relative;
+}
+.cont_fecha_desc .desc{
+    position: absolute;
+    width: 100px;
+    top: 7px;
+    left: 60px;
+    z-index: 100;
+}
+
+.form-group{
+    margin-bottom: 18px;
+}

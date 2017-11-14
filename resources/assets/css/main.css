@@ -1,0 +1,1451 @@
+*::selection  {
+    background: #67CFF3;
+    color: white;
+}
+html,body{
+    overflow-x: hidden;
+}
+*,*::before,*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+   /* padding-bottom: 222em;*/
+}
+.container
+{
+    width: 100%;
+    font-family: 'Roboto', 'sans-serif';
+    margin: 0 0 20px 0;
+}
+/*//////////////
+POSICION PAGINAS
+/*********/
+
+.cont_posicion_paginas{
+    background-color: #F4F4F4;
+    width: 100%;
+    margin: 20px 0 40px 0;
+    padding: 10px 20px;
+}
+.cont_posicion_paginas a:hover{
+    text-decoration: none;
+}
+
+
+/****EN CONSTRUCCION***/
+/*.building-conteiner {*/
+    /*font-family: sans-serif;*/
+    /*height: 100vh;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*flex-direction: column;*/
+    /*align-content: center;*/
+    /*align-items: center;*/
+/*}*/
+/*.building-conteiner .icon-cog {*/
+    /*font-size: 60px;*/
+    /**/
+    /*animation-duration: 5s;*/
+    /*animation-iteration-count: infinite;*/
+    /*animation-timing-function: linear;*/
+    /*animation-name: girar;*/
+    /*animation: girar 5s infinite linear;*/
+    /*-webkit-animation: girar 5s infinite linear;*/
+/*}*/
+/*@keyframes girar {*/
+    /*from {*/
+        /*transform: rotate(0deg);*/
+    /*}*/
+    /*to {*/
+        /*transform: rotate(360deg);*/
+    /*}*/
+/*}*/
+/*@-webkit-keyframes girar {*/
+    /*from {*/
+        /*transform: rotate(0deg);*/
+    /*}*/
+    /*to {*/
+        /*transform: rotate(360deg);*/
+    /*}*/
+/*}*/
+
+/**********************/
+.fa{
+    margin:0 4px;
+}
+.nav_contacto
+{
+    /*background-color: #ffff;*/
+    padding: .8em 2em;
+    font-size: 1em;
+}
+
+    .row-bordered {
+        position: relative;
+    }
+    
+    .row-bordered:after {
+        content: "";
+        display: block;
+        border-bottom: 1px solid #CACACA;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+/*NAV MENU*/
+.navbar-collapse.collapse{
+    /*font-size: 1.18em;*/
+}
+.navbar-brand{
+    height: 130px;
+}
+
+.navbar-brand {
+    padding: 0px;
+    display: block;
+}
+.navbar-brand>img {
+    height: 100%;
+    padding: 0px;
+    width: 150px;
+}
+
+.nav.navbar-nav{
+    margin-top: 35px;
+}
+.actived{
+    border-bottom: 2px solid #0088FF;
+}
+.navbar-default{
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+
+/*SLIDER*/
+.carousel-inner{
+    max-height: 700px;
+}
+.carousel.slide img{
+    /*display: block;*/
+   /* height: 500px;*/
+}
+.carousel-control{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 3.6em;
+}
+
+
+
+/*SLOGAN*/
+.slogan{
+    padding: 140px 0 160px 0;
+    margin-top: 200px;
+    position: relative;
+    background-image: url('../img/background/internet-wifi.jpg');
+    background-size: 100% 142%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.slogan::before,.slogan::after{
+    content: '';
+    position: absolute;
+    width: 4%;
+    height: 3px;
+    background-color: #00C7BC;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.slogan::before{
+    top: 75px;
+}
+.slogan::after{
+    bottom: 78px;
+}
+
+.slogan .slogan_titulo, .slogan .slogan_texto{
+    text-align: center;
+    color: white;
+}
+
+.slogan .slogan_titulo{
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.slogan .slogan_texto{
+    font-size: 1.4em;
+    width: 380px;
+    margin: auto;
+    /*color: #a9a9a9;*/
+    letter-spacing: 2px;
+}
+
+/*paquetes*/
+.paquetes{
+    margin:115px 0;
+
+}
+.paquetes .paquetes_titulo{
+    text-align: center;
+    font-weight: bold;
+}
+
+.paq_resaltado{
+    font-weight: normal;
+    color: #00B6BC;
+}
+
+.contenedor_paquetes{
+    margin:30px;
+    padding:0 10px;
+}
+
+/*
+    .paquetes .contenedor_planes{
+        *//*padding: 0 100px;*//*
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+        .plan_item{
+            margin:0 10px 40px 10px;
+            border: 1px solid #DADADA;
+            width: 40%;
+            max-width: 280px;
+        }
+        .plan_item:hover{
+
+            box-shadow: 0px 1px 8px -1px rgba(0,0,0,0.40);
+            transition:.1s;
+        }*/
+
+
+/***
+Pricing table
+***/
+
+.pricing {
+    position: relative;
+    margin-bottom: 15px;
+    border: 3px solid #eee;
+}
+
+.pricing-active {
+    border: 3px solid #00CBD3;
+    margin-top: -10px;
+    box-shadow: 7px 7px rgba(54, 215, 172, 0.2);
+}
+
+.pricing:hover {
+    border: 3px solid #00CBD3;
+}
+
+.pricing:hover h4 {
+    color: #00CBD3;
+}
+
+.pricing-head {
+    text-align: center;
+}
+
+.pricing-head h3,
+.pricing-head h4 {
+    margin: 0;
+    line-height: normal;
+}
+
+.pricing-head h3 span,
+.pricing-head h4 span {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.pricing-head h3 {
+    font-weight: 300;
+    color: #fafafa;
+    padding: 12px 0;
+    font-size: 27px;
+    background: #00CBD3;
+    border-bottom: solid 1px #41b91c;
+}
+
+.pricing-head h4 {
+    color: #bac39f;
+    padding: 5px 0;
+    font-size: 54px;
+    font-weight: 300;
+    background: #fbfef2;
+    border-bottom: solid 1px #f5f9e7;
+}
+
+.pricing-head-active h4 {
+    color: #00CBD3;
+}
+
+.pricing-head h4 i {
+    top: -8px;
+    font-size: 28px;
+    font-style: normal;
+    position: relative;
+}
+
+.pricing-head h4 span {
+    top: -10px;
+    font-size: 14px;
+    font-style: normal;
+    position: relative;
+}
+
+/*Pricing Content*/
+.pricing-content li {
+    color: #888;
+    font-size: 14px;
+    padding: 7px 15px;
+    border-bottom: solid 1px #f5f9e7;
+}
+
+.fa-check{
+    margin-right: 15px;
+}
+
+/*Pricing Footer*/
+.pricing-footer {
+    color: #777;
+    font-size: 11px;
+    line-height: 17px;
+    text-align: center;
+    padding: 0 20px 19px;
+}
+
+/*Priceing Active*/
+.price-active,
+.pricing:hover {
+    z-index: 9;
+}
+
+.price-active h4 {
+    color: #00CBD3;
+}
+
+.no-space-pricing .pricing:hover {
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.no-space-pricing .price-active .pricing-head h4,
+.no-space-pricing .pricing:hover .pricing-head h4 {
+    color: #00CBD3;
+    padding: 15px 0;
+    font-size: 80px;
+    transition: color 0.5s ease-in-out;
+}
+
+.yellow-crusta.btn {
+    color: #FFFFFF;
+    background-color: #00bfff;
+}
+.yellow-crusta.btn:hover,
+.yellow-crusta.btn:focus,
+.yellow-crusta.btn:active,
+.yellow-crusta.btn.active {
+    color: #FFFFFF;
+    background-color: #1BB8ED;
+}
+
+.planes_vermas{
+    text-align: center;
+}
+
+/* POR QUE ESCOGERNOS*/
+.porque_nosotros{
+    background-color: #F3F3F3;
+}
+
+.porque_nosotros .porque_nosotros_titulo{
+    text-align: center;
+}
+
+.porque_nosotos_features{
+    display: flex;justify-content: space-around;
+    padding: 0 20px 28px 20px;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.feature_item{
+    width: 145px;
+    height: 145px;
+    border-radius: 3px;
+    box-shadow: 0 0 6px 0 #B5B5B5;
+    display: flex;align-items: center;
+    flex-direction: column;
+    padding: 14px 4px 14px 4px;
+}
+    .porque_nosotros_titulo{
+        margin-bottom: 25px;
+        font-size: 1.5em;
+    }
+
+    .feature_item_img{
+        width: 50%;
+    }
+    .feature_item_description{
+        text-align: center;
+        padding-top: 6px;
+        font-family: 'Open Sans', sans-serif;
+        color: #334551;
+        line-height: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    /*MARCAS CON LAS QUE TRABAJAMOS*/
+.marcas .background{
+    height: 677px;
+    background-image: url("../img/background/fondo_marcas.png") ;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: center 50px  ;
+    position: relative;
+}
+
+.marcas_titulo{
+    position: absolute;
+    top:150px;
+    left: 75%;
+    transform: translateX(-50%);
+    font-size: 1.5em;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 400px;
+}
+.marcas_contenedor{
+    position: absolute;
+    right: 50px;
+    top: 240px;
+    display: flex;
+    flex-wrap: wrap;
+    /*border: 1px solid white;*/
+}
+.marca_item{
+    margin-bottom: 40px;
+    width: 33.3%;
+    height: 100px;
+}
+.marca_item img{
+   /* width: 110px;
+    height:70px;*/
+    transition: all .2s;
+}
+.marca_item img:hover{
+    cursor: pointer;
+    transform:scale(1.3);
+    transition:all .2s;
+}
+
+
+/*PROMOCIONES*/
+.promociones{
+   /* margin:60px 0 0 0;*/
+    margin-left: 5px;
+    margin-top: 40px;
+}
+
+.promociones_titulo{
+    text-align: left;
+   /* padding-left: 55px;*/
+    font-size: 2em;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    flex-wrap:wrap;
+}
+    .ver_promociones{
+        font-size: .57em;
+        margin-top: 15px;
+    }
+.promociones_contenedor{
+    margin-right: -60px;
+}
+.item_promocion{
+    width: 45%;
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
+    padding:0;
+    /*display: flex;*/
+    /*position: relative;*/
+}
+.item_promocion:nth-child(2){
+    float: right;
+}
+    .item_promo_img{
+        /*position: absolute;*/
+       /* top: 0;
+        left: 0;*/
+        width:  100%;
+        height: 100%;
+        display: block;
+        transition: all 500ms ease;
+    }
+.item_promocion .mascara{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(15, 151, 255, 0.1);
+    transition: opacity 100ms ease;
+}
+.item_promocion .mascara img{
+    width: 15px;
+    height: 15px;
+    margin-left: -10px;
+    margin-top: -10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.item_promocion:hover .mascara{
+    opacity: 1;
+}
+.item_promocion:hover .item_promo_img{
+    transform: scale(1.1);
+}
+
+
+/*CARACTERISTICAS SERVICIO*/
+.caracteristicas_servicio{
+    margin:0 auto;
+    padding: 50px 0;
+}
+
+.caracteristica_titulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+.titulo_resaltado{
+    color: #0BC9FE;
+}
+
+
+
+.item_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header_icon{
+    font-size: 60px !important;
+    line-height: 1.7;
+    color:#0BC9FE;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;text-align: center;
+    border-color: #F3F3F3;
+    border-width: 8px;
+    border-style: solid;
+    transition:all .4s ease;
+}
+
+.caracteristica_item:hover .header_icon{
+    color: white;
+    background: #0BC9FE;
+}
+.header_title{
+    color: #0BC9FE;
+    font-size: 1.6em;
+}
+.itema_body{
+    text-align: center;
+    font-size: 1.3em;
+}
+
+/*CONTACTENOS INDEX*/
+.contactenos{
+    transform: translatex(88px);
+    height: 600px;
+    background-image:url("../img/escarcha.png") ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: -180% center;
+}
+.contactenos_logo{
+    display: block;
+    margin:auto;
+    transform:translateX(-66px);
+}
+
+.contactanos_datos{
+    margin:auto
+}
+.con_item{
+
+}
+.con_item .datos_header{
+    color: #0393FF;
+    font-size: 1.4em;
+}
+.con_item .datos_header span.fa{
+    font-size: 1.4em;
+}
+
+.con_item .datos_body{
+    letter-spacing: 1px;
+}
+
+.datos_body.social a{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #0393FF;
+    color: white;
+    transition: background 200ms ease;
+}
+
+.datos_body.social a:hover{
+    background-color:#0262AA ;
+    transition: background 200ms ease;
+}
+
+.datos_body.social a i{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    line-height: 2.7;
+    text-align: center;
+    font-size: 1.2em;
+}
+/*FOOTER*/
+footer.footer{
+    height: 60px;
+    background-color: #014171;
+    padding: 17px 10px;
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+
+
+
+
+/*********************
+
+///////////// NOSOTROS //////////
+
+****************************/
+
+.nosotros_titulo_contenedor{
+    height: 238px;
+    background-image: url('../img/background/nosotros_torre.jpg');
+    background-position: -9px 349px;
+    background-size: 100% 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.nosotros_titulo_contenedor .nosotros_titulo{
+    text-align: center;
+    font-size: 6rem;
+    color: white;
+
+}
+.quienes_somos  .cont_text{
+    margin: 10px auto 100px auto;
+    width: 55%;
+    font-size: 1.3em;
+    line-height: 1.9;
+    text-align: justify;
+}
+
+
+.quienes_somos  .cont_text img{
+    margin-left: 2px;
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+/*********************
+
+///////////// CONTACTENOS //////////
+
+****************************/
+
+.contactenos_titulo{
+    text-align: center;
+    width: 850px;
+    margin: 90px auto 0 auto;
+    font-weight: 400;
+    padding: 3px 20px;
+}
+
+.mapa{
+    height: 400px;
+}
+.form_info_onenet{
+    width: 980px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 30px 2px #b9b9b9;
+}
+/*datos_empresa*/
+    .info_empresa{
+        width: 340px;
+        box-shadow: 0 0 30px 2px #b9b9b9;
+        background-color: #99D9F3;
+        padding: 51px 34px;
+        font-size: 1.17em;
+        color: #515151;
+    }
+        .info_empresa_item{
+            margin-bottom: 20px;
+        }
+/*formulario*/
+    .cont_formulario{
+        width: 640px;
+        padding: 40px 30px;
+        background-color: #FFFFFF;
+    }
+    .formulario{
+        /*border: 2px solid green;*/
+    }
+
+    .cont_input{
+        /*border: 1px solid yellow;*/
+    }
+
+        .label_input{
+            display: block;
+            color: #17B3C1;
+            margin-top: 20px;
+        }
+
+        .input_input{
+            border-style: none none solid none;
+            border-width: 1px;
+            border-color: #9B9B9B;
+            width: 100%;
+            outline: none;
+            height: 38px;
+            padding: 8px 12px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            line-height: 1.428571429;
+            color: #333333;
+            vertical-align: middle;
+            background-color: #ffffff;
+        }
+
+        .input_input:focus{
+            border-style: none none solid none;
+            border-color: #187CF0;
+        }
+
+
+        .cont_input textarea{
+            border-color: #333333;
+            max-width: 100%;
+            max-height: 100px;
+        }
+
+    .cont_input_btn{
+        text-align: center;
+    }
+        .input_input_btn{
+            width: 80%;
+            margin: 40px auto 40px auto;
+            border-radius: 5px;
+            display: inline-block;
+            padding: 9px 15px;
+            background-color: #3898EC;
+            color: white;
+            border: 0;
+            cursor: pointer;
+        }
+
+
+
+
+/*********************
+
+///////////// SERVICIO INTERNET //////////
+
+****************************/
+.servicios_portada{
+    background-image: url('../img/background/servicios_antena.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    color: #ffffff;
+    padding-top: 41px;
+    font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.servicios_portada h4, .servicios_portada  h3{
+    margin: 20px 0 0 70px;
+    font-weight: 300;
+    font-size: 29px;
+    color: #D8D8D8;
+
+}
+
+.servicios_portada h4{
+    margin: 15px 0 0 70px;
+    font-size: 19px;
+    color: #E5E5E5;
+}
+
+.servicios_paraquienes{
+    margin-top: 80px;
+    background-color:#F3F3F3;
+}
+
+.servicios_paraquienes h4{
+    text-align: center;
+    font-size: 25px;
+    width: 90%;
+    margin: 30px auto 20px auto;
+}
+.contenedor_paraquienes{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 10px;
+}
+
+    .item_servicios_paraquienes{
+        width: 350px;
+        height: 250px;
+        position: relative;
+        border-radius: 7px;
+        overflow: hidden;
+        transition: all .3s ease;
+    }
+    .item_servicios_paraquienes:hover{
+        box-shadow: 0 0 30px 2px #b9b9b9
+    }
+    .item_servicios_paraquienes .img_paraquienes{
+        width: 100%;
+        height: 100%;
+        display: block;
+        transition: all 500ms ease;
+    }
+    .paraquienes_titulo{
+        text-align: center;
+        font-weight: 600;
+        width: 100%;
+        background: rgba(0,0,0,0.7);
+        color: white;
+        position: absolute;
+        left: 0;
+        bottom: 10px;
+        line-height: 2.4;
+    }
+     .paraquienes_titulo:hover{
+         background: rgba(0,0,0,0.9);
+     }
+
+
+
+    .mascaraa{
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        background:rgba(15, 151, 255, 0.1);
+        transition: opacity 100ms ease;
+        cursor: pointer;
+    }
+    .item_servicios_paraquienes .mascaraa img{
+        width: 15px;
+        height: 15px;
+        margin-left: -10px;
+        margin-top: -10px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+    }
+
+    .item_servicios_paraquienes:hover .mascaraa{
+        opacity: 1;
+    }
+    .item_servicios_paraquienes:hover .img_paraquienes{
+        transform: scale(1.1);
+    }
+
+
+
+.servicios_instalacion{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:80px 0 135px 0;
+}
+
+.item_servicios_instalacion{
+    width: 200px;
+    height: 200px;
+}
+
+    .cont_ins_img{
+        border-radius: 50%;
+        border: 2px solid #E1E1E1;
+        height: 127px;
+        width: 127px;
+        position: relative;
+        margin:auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cont_ins_img img{
+        width: 50%;
+        height: 50%;
+
+    }
+
+    .num_paso{
+        color: white;
+        position: absolute;
+        bottom: 8px;
+        right: 0;
+        background-color:#0395FF ;
+        text-align: center;
+        padding-top: 3px;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+    }
+    .instalacion_titulo,.instalacion_descripcion{
+        text-align: center;
+
+    }
+
+.internet_planes{
+    width: 80%;
+    margin: 100px auto;
+}
+/*hogares*/
+.hogares_portada{
+    height: 380px;
+    position: relative;
+}
+    .portada_img{
+        width: 100%;
+        height: 100%;
+    }
+
+.hogares_portada h3,.hogares_portada h4{
+    padding: 50px 0 0 127px;
+    font-weight: 300;
+}
+    .titulos{
+        position: absolute;
+        top: 15px;
+        left: 40px;
+    }
+.hogares_portada h3{
+    font-size: 46px;
+    color: #39ACFF;
+}
+
+.hogares_portada h4{
+    padding: 10px 0 0 127px;
+    font-size: 22px;
+    color: #0393FF;
+}
+.hogares_planes_titulo{
+    padding: 0 18px;
+    font-size: 23px;
+    margin: 75px 0 17px;
+}
+.hogares_descripcion,.pymes_descripcion{
+    margin: 106px auto 72px auto;
+    padding: 30px 0;
+    background-color: #F3F3F3;
+}
+.hogares_descripcion p,.pymes_descripcion p{
+    width: 665px;
+    font-size: 22px;
+    text-align: center;
+    margin:auto;
+    color:#0D215B;
+}
+
+/*pymes*/
+.pymes_portada{
+    height: 508px;
+    position: relative;
+}
+.pymes_portada .pymes_titulos{
+    color: white;
+    position: absolute;
+    top: 337px;
+    left: 40px;
+}
+
+
+.pymes_portada .pymes_titulos h4,.pymes_portada .pymes_titulos h3{
+    font-size: 51px;
+}
+
+.pymes_portada .pymes_titulos h4{
+    font-size: 19px;
+}
+
+.pymes_planes_titulo{
+    font-size: 23px;
+    margin: 75px 0 75px;
+    text-align: center;
+}
+.pymes_caracteristicas_item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px auto 150px auto;
+}
+    .cont_desc{
+        width: 50%;
+    }
+        .cont_desc h4{
+            width: 250px;
+            margin:auto;
+            text-align: center;
+        }
+        .cont_desc hr{
+            border: .1px solid rgba(0,0,0,.8);
+            margin: 10px auto;
+            width: 400px;
+        }
+        .cont_desc  .descripcion{
+            width: 400px;
+            margin: auto;
+            text-align: justify;
+        }
+    .cont_img{
+        width: 50%;
+        text-align: center;
+    }
+        .cont_img img{
+            width: 378px;
+            height: 200px;
+        }
+
+/*********************
+
+///////////// COBERTURA //////////
+
+****************************/
+
+.section_cobertura{
+    margin-bottom: 170px;
+}
+.cobertura_titulo{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************RESPONSIVE********************/
+@media(max-width:1200px){
+    .marcas_contenedor{
+        transform: translateX(75px);
+        /*border: 1px solid white;*/
+    }
+
+    /*hogares*/
+    .titulos {
+        top: -54px;
+        left: -60px;
+    }
+
+}
+
+
+@media(max-width:850px){
+    .navbar-header{
+        display: flex;justify-content: center;
+    }
+    /*INDEX*/
+    .slogan {
+        background-size: 123% 142%;
+        background-position: center;
+    }
+
+    .slogan .slogan_titulo{
+        font-size: 2em;
+    }
+    .slogan .slogan_texto{
+        width: 200px;
+        font-size: 1.2em;
+    }
+    /*PAQUETES*/
+    .paquetes .contenedor_planes{
+        justify-content: center;
+    }
+    .plan_item{
+        width: 70%;
+    }
+
+    /*porque nosotros*/
+    .porque_nosotos_features{
+        padding: 0 60px
+    }
+
+    /*MARCAS*/
+    .marcas .background{
+        background-size:150% 100%;
+        background-position: -300px 50px;
+    }
+
+    .marcas_titulo{
+        left: 52%;
+    }
+
+    .marca_item{
+        width: 29%;
+    }
+    .marca_item img:hover{
+        /* width: 110px;
+         height:70px;*/
+        transform:scale(1);
+    }
+
+    /*PROMOCIONES*/
+    .promociones{
+        /* margin:60px 0 0 0;*/
+        margin-left: 5px;
+        margin-top: 40px;
+    }
+
+    .promociones_titulo{
+        text-align: left;
+        /* padding-left: 55px;*/
+        font-size: 2em;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        flex-wrap:wrap;
+    }
+    .ver_promociones{
+        font-size: .57em;
+        margin-top: 15px;
+    }
+    .promociones_contenedor{
+        margin-right: 25px;
+    }
+    .item_promocion{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /*//////
+   * CONTACTENOS
+   ********/
+    .mapa{
+        height: 200px;
+    }
+
+    .contactenos_titulo{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .form_info_onenet {
+        width: 750px;
+    }
+
+    .info_empresa {
+        font-size: 1em;
+    }
+
+    /*///////
+    INTERNET SERVICIO
+    *********/
+    .modal-dialog{
+        width: 100%;
+    }
+
+    /*hogares*/
+    .hogares_descripcion p, .pymes_descripcion p {
+        width: 100%;
+        padding: 0 4px;
+        font-size: 1.3em;
+    }
+}
+
+
+@media(max-width: 600px){
+    /*MARCAS*/
+    .marcas .background{
+        background-size:190% 100%;
+        height: 1100px
+    }
+
+    .marcas_contenedor{
+        transform:translateX(200px);
+    }
+    .marcas_titulo{
+        font-size: 1em;
+        left: 51%;
+        width: 200px;
+        text-align: center;
+    }
+
+    .marca_item{
+        width: 100%;
+        height: 56px;
+    }
+    .marca_item img:hover{
+        /* width: 110px;
+         height:70px;*/
+        transform:scale(1);
+    }
+
+    /*PROMOCIONES*/
+    .item_promocion:hover .item_promo_img{
+        transform: scale(1);
+    }
+
+    /*CONTACTENOS EN INDEX*/
+    .contactenos {
+        margin-bottom: 120px;
+        transform: translatex(30px);
+    }
+
+    /*//////
+    * NOSOTROS
+    ********/
+    .nosotros_titulo_contenedor .nosotros_titulo{
+        text-align: center;
+        font-size: 4rem;
+        color: white;
+
+    }
+
+    .quienes_somos  .cont_text{
+        width: 80%;
+        font-size: 1.1em;
+        line-height: 1.5;
+    }
+
+
+    /*//////
+   * CONTACTENOS
+   ********/
+    .mapa{
+        height: 200px;
+    }
+    .form_info_onenet {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .info_empresa{
+        width: 100%;
+    }
+    .cont_formulario {
+        width: 100%;
+    }
+
+    /*//////////
+    *SERVICIO DE INTERNET
+    ***********/
+
+    .servicios_instalacion {
+        justify-content: center;
+    }
+
+    .item_servicios_instalacion {
+        margin: 50px auto;
+    }
+
+    .item_servicios_paraquienes {
+         margin-bottom: 20px;
+    }
+
+    /*hogares*/
+    .hogares_portada {
+        height: 479px;
+    }
+
+    .hogares_portada h3 {
+        padding: 50px 0 0 91px;
+    }
+
+    .hogares_portada h4 {
+        padding: 1px 11px 0 81px;
+        width: 100%;
+    }
+
+    .hogares_planes.container-fluid{
+        width: 100%;
+        padding: 0;
+    }
+    /*pymes*/
+    .pymes_portada {
+        height: 312px;
+        position: relative;
+    }
+    .pymes_portada .pymes_titulos {
+        top: 25px;
+        left: 21px;
+    }
+    .cont_desc {
+        width: 100%;
+    }
+    .cont_desc h4,.cont_desc hr,.cont_desc .descripcion {
+        width: 100%;
+    }
+    .cont_img {
+        width: 100%;
+    }
+    .cont_img img {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+}
+
+@media(max-width: 450px){
+    /*index*/
+    .slogan {
+        background-size: 314% 150%;
+    }
+
+    .marcas_contenedor{
+        transform:translateX(115px);
+    }
+    .item_promocion{
+        height: 180px;
+    }
+
+    .pricing h4 {
+        font-size: 3em;
+    }
+    .contenedor_paquetes {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /*CARACTERISTICAS DEL SERVICIO*/
+    .caracteristica_titulo {
+        font-size: 2em;
+    }
+
+    /*//////////
+   *SERVICIO DE INTERNET
+   ***********/
+    .servicios_portada h4, .servicios_portada h3 {
+        margin: 0 41px;
+    }
+    .servicios_portada h4 {
+        margin: 15px 0 0 44px;
+    }
+    .item_servicios_paraquienes {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        border-radius: 7px;
+        overflow: hidden;
+        transition: all .3s ease;
+    }
+
+    /*hogares*/
+    .hogares_portada {
+        height: 657px;
+    }
+}
+
+
+@media(max-width: 300px){
+    /*PROMOCIONES*/
+    .promociones_contenedor {
+        /* margin-right: 25px; */
+        padding: 0;
+        width: 100%;
+        margin:0;
+    }
+
+    /*MARCAS*/
+    .marcas_contenedor{
+        transform:translateX(95px);
+    }
+
+    /*CONTACTANOS INDEX*/
+    .contactenos_logo {
+        transform: translateX(-36px);
+    }
+    .contactanos_datos {
+        transform: translatex(-20px);
+        font-weight: 400;
+    }
+
+
+}

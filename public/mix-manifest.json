@@ -1,0 +1,21 @@
+{
+  "/js/app.js": "/js/app.js",
+  "/css/app.css": "/css/app.css",
+  "/css/bootstrap.css": "/css/bootstrap.css",
+  "/css/adminlte-app.css": "/css/adminlte-app.css",
+  "/css/toastr.css": "/css/toastr.css",
+  "/js/app-landing.js": "/js/app-landing.js",
+  "/css/all.css": "/css/all.css",
+  "/css/all-landing.css": "/css/all-landing.css",
+  "/mix.js": "/mix.js",
+  "/js/plugins.js": "/js/plugins.js",
+  "/css/plugins.css": "/css/plugins.css",
+  "/js/scripts.js": "/js/scripts.js",
+  "/css/estilos.css": "/css/estilos.css",
+  "pluginsPaginaWeb.css": "pluginsPaginaWeb.css",
+  "estilosPaginaWeb.css": "estilosPaginaWeb.css",
+  "/css/pluginsPaginaWeb.css": "/css/pluginsPaginaWeb.css",
+  "/cssestilosPaginaWeb.css": "/cssestilosPaginaWeb.css",
+  "/css/paginaweb/pluginsPaginaWeb.css": "/css/paginaweb/pluginsPaginaWeb.css",
+  "/css/paginaweb/estilosPaginaWeb.css": "/css/paginaweb/estilosPaginaWeb.css"
+}
